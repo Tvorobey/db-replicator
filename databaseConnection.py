@@ -25,8 +25,8 @@ class source_db:
     def connect(self):
         # Connect to adcs_mgt PostgreSQL server
         self.conn = psycopg2.connect(
-            host="kiask-farm-01.kiask.ru",
-            database="adcs_mgt",
+            host="test.ru",
+            database="test",
             user="postgres",
             password="postgres",
             port="5432"
@@ -100,8 +100,8 @@ class dist_db:
     def connect(self):
         # Connect to adcs_mgt PostgreSQL server
         self.conn = psycopg2.connect(
-            host="192.168.85.21",
-            database="adcs_mgt",
+            host="test",
+            database="test",
             user="postgres",
             password="postgres",
             port="5432"
